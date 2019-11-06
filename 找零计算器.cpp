@@ -2,21 +2,22 @@
 int main()
 {
 	int price,bill;
-	printf("ÇëÊäÈë½ğ¶î£º");
+	printf("è¯·è¾“å…¥é‡‘é¢ï¼š");
 	scanf("%d",&price);
-	printf("ÇëÊäÈëÆ±Ãæ£º");
+	printf("è¯·è¾“å…¥ç¥¨é¢ï¼š");
 	scanf("%d",&bill);
 	if (bill>=price)
 	{
 		int change;
 		change=bill-price;
-		printf("ÕÒÄú%dÔª",change); 
+		printf("æ‰¾æ‚¨%då…ƒ",change); 
 	 } 
 	 else
 	 {
 	 	int money;
 	 	money=price-bill;
-	 	printf("¶Ô²»Æğ£¬ÄúµÄÇ®²»¹»,»¹²î%dÔª",money); 
+	 	printf("å¯¹ä¸èµ·ï¼Œæ‚¨çš„é’±ä¸å¤Ÿ,è¿˜å·®%då…ƒã€‚\n",money); 
 	 }
+	printf("æ¬¢è¿ä¸‹æ¬¡å…‰ä¸´ï¼");
 	 return 0;
 }
