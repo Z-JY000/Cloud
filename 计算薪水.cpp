@@ -5,20 +5,20 @@ int main()
 	const int STANDARD=40;
 	double pay=0.0;
 	int hours;
-	printf("ÊäÈë¹¤×÷Ê±¼ä£º");
+	printf("è¾“å…¥å·¥ä½œæ—¶é—´(h):");
 	scanf("%d",&hours);
 	printf("\n");
 	if (hours<=STANDARD)
 	{
 		pay=RATE*STANDARD;
-		printf("ÄãµÄÐ½Ë®ÊÇ£º%f\n",pay);
+		printf("ä½ çš„è–ªæ°´æ˜¯ï¼š%.2få…ƒ\n",pay);
 	}
 	else
 	{
 	    pay=RATE*STANDARD+(hours-STANDARD)*RATE*1.5;
-		printf("ÄãµÄÐ½Ë®ÊÇ:%f\n",pay);
+		printf("ä½ çš„è–ªæ°´æ˜¯:%.2få…ƒ\n",pay);
 		 
 	 } 
-	 printf("½áÕËÍê±Ï£¬ÏÂÒ»Î»¡£");
+	 printf("ç»“è´¦å®Œæ¯•ï¼Œä¸‹ä¸€ä½ã€‚");
 	 return 0; 
 }
