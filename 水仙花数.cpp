@@ -1,4 +1,4 @@
-//·ÇÔ­´´´úÂë£¬À´×ÔCSDN²©¿Í£¬ID:×ÓÒ« 
+//éåŸåˆ›ä»£ç ï¼Œæ¥è‡ªCSDNåšå®¢ï¼ŒID:å­è€€ï¼ŒåŸæ–‡é“¾æ¥ï¼šï¼šhttps://blog.csdn.net/Wuxin_20/article/details/89790912 
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -6,16 +6,16 @@ int main()
 	int i,j,a,b,c;
 	int count=0;
 	for (i=100;i<=999;i++){
-		a=i/100;                         //°ÙÎ»ÊıÇóÈ¡ 
-		b=(i%100)/10;                    //Ê®Î»ÊıÇóÈ¡ 
-		c=i%10;                          //¸öÎ»ÊıÇóÈ¡ 
+		a=i/100;                         //ç™¾ä½æ•°æ±‚å– 
+		b=(i%100)/10;                    //åä½æ•°æ±‚å– 
+		c=i%10;                          //ä¸ªä½æ•°æ±‚å– 
 		j=a*a*a+b*b*b+c*c*c;
 		if (i==j){
 			count++;
 			printf("%d\n",i);
 		}
 	}
-	printf("\nË®ÏÉ»¨ÊıµÄ¸öÊıÎªcount=%d\n",count);
+	printf("\næ°´ä»™èŠ±æ•°çš„ä¸ªæ•°ä¸ºcount=%d\n",count);
 	system("pause");
 	return 0;
  } 
