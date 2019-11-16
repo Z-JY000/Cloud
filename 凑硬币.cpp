@@ -5,11 +5,11 @@ int main()
 	int one,two,five;
 	int exit=0;
 	scanf("%d",&x);
-	for(one=1;one<x*100;one++){
+	for(one=1;one<x*10;one++){
 		for(two=1;two<x*10/2;two++){
-			for(five=1;five<x*100/5;five++){
+			for(five=1;five<x*10/5;five++){
 				if(one+two*2+five*5==x*10){
-					printf("¿ÉÒÔÓÃ%d¸ö1½Ç¼Ó%d¸ö2½Ç¼Ó%d¸ö5½ÇµÃµ½%dÔª\n",one,two,five,x);
+					printf("å¯ä»¥ç”¨%dä¸ª1è§’åŠ %dä¸ª2è§’åŠ %dä¸ª5è§’å¾—åˆ°%då…ƒ\n",one,two,five,x);
 					exit=1;
 					break;
 			 } 
